@@ -19,5 +19,8 @@
             "Pay\\WeChat\\": "src"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "branch-alias": {
+        "master": "1.0.x-dev"
+    }
 }
