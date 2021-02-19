@@ -1,0 +1,23 @@
+{
+    "name": "ccforever/WeChatPay",
+    "keywords": ["php","WeChat"],
+    "description": "微信支付组件，内面集成了扫码支付、公众号支付、H5支付、现金红包、企业付款、退款、刷卡支付",
+    "type": "library",
+    "homepage": "https://github.com/ccforevercn/WeChatPay",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=7.0"
+    },
+    "authors": [
+        {
+            "name": "ccforevercn",
+            "email": "1253705861@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Pay\\WeChat\\": "src"
+        }
+    },
+    "minimum-stability": "stable"
+}
